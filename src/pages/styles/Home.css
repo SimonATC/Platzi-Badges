@@ -1,0 +1,43 @@
+.Home {
+    width: 100%;
+    min-height: calc(100vh - 60px);
+    background: url('../../images/stars.svg'), #1B1B25;
+    background-repeat: repeat;
+    
+    color: #ffffff;
+  
+    display: grid;
+      grid-template: 1fr / 100px300px1fr 100px;	
+      grid-template-areas: ". text image .";
+      align-items: center;
+      justify-items: center;
+  }
+  
+  .col-img{
+      grid-area: image;	
+      margin-right: 50px;
+  }
+  
+  .col-imgimg{	
+      width: 100%;
+  }
+  
+  .col-text{
+      grid-area: text;
+      text-align: center;
+  }
+  
+  .col-textimg{
+      margin-bottom: 20px;
+  }
+  .Home .btn{
+        background:#98ca3f;
+        border: 0;
+        padding: 8px 50px;
+        font-size: 20px;
+        margin-top: 20px;
+  }
+  .Home h1{
+    font-weight: 600;
+    font-size: 60px;
+  }

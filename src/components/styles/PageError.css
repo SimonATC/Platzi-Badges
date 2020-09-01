@@ -1,0 +1,16 @@
+.PageError {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px);
+  width: 100%;
+  background: url('../../images/stars.svg') #1B1B25;
+}
+.imagenError img{
+  width: 500px;
+}
+.PageError .mensajeError{
+  color: #98ca3f;
+  font-size: 40px;
+}

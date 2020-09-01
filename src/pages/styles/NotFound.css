@@ -1,0 +1,20 @@
+.noEncontrado{
+    background: url('../../images/stars.svg'), #1B1B25;
+    background-repeat: repeat;
+    height: calc(100vh - 60px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.noEncontrado img{
+    width: 30%;
+}
+.noEncontrado h3{
+    color:#fff;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
